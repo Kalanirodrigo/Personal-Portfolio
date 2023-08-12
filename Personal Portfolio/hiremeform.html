@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Hire Me Webpage</title>
+	    <link rel="stylesheet" type="text/css" href="css/portfoliostyle.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,700;1,200;1,300;1,400;1,500;1,600&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="contact">
+            <div class="contact-form">
+                <h1>Contact<span>Me</span></h1>
+                <form name="myfrm" action="php\dbhinc.php" method="post" target="_blank">
+                    <input type="email" name="email" id="" placeholder="E-mail"required>
+                    <input type="text" name="p_number" id="" placeholder="0xxxxxxxxx"required pattern="\d{10}">
+                    <input type="text" name="title" placeholder="Write a title" required>
+                    <textarea name="description" id="" cols="30" rows="10" placeholder="Description" required></textarea>
+                    <textarea name="image" id="" cols="30" rows="10" placeholder="Enter the URL of your event location" required></textarea>
+                    <input type="submit" name="" value="Submit" class="btn">
+                </form>
+            </div>
+
+            <div class="contact-img">
+                <img src="img/contact-img.jpg">
+            </div>
+
+        </section>
+    </body>
+</html>
